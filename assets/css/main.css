@@ -7,6 +7,182 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.flexed{
+	display: flex;
+	justify-content: space-around;
+}
+
+.parag-center{
+	text-align: center;
+}
+
+.modal-info-out{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
+.modal-info-out-two{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
+.modal-info-out-three{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+.modal-info-out-four{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
+.fixed-class{
+	display: flex;
+}
+@media screen and (max-width: 430px) {
+	.modal-info{
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.modal-info img{
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+		position: absolute;
+		top: 2%;
+		right: 6% !important;
+	}
+}
+.modal-info{
+	width: 80%;
+	height: 100%;
+	background-color: white;
+	overflow-y: auto;
+}
+
+.modal-info img{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	position: absolute;
+    top: 2%;
+    right: 13%;
+}
+
+.modal-info h2{
+	color: black;
+	font-weight: 600;
+	padding-top: 2%;
+	padding-left: 4%;
+}
+
+.subtitle{
+	display: flex;
+}
+
+.subtitle1 {
+	color: black;
+	font-weight: 300;
+	padding-left: 4%;
+	margin: 0;
+}
+
+.subtitle2 {
+	color: black;
+    font-weight: 300;
+    padding-left: 2%;
+	position: relative;
+    left: 49%;
+	margin: 0;
+}
+
+.experienceOne {
+	color: black;
+	padding-top: 2%;
+	padding-left: 4%;
+	margin: 0;
+	font-weight: bold;
+}
+
+.experienceTwo {
+	color: black;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 0;
+    text-align: justify;
+	font-weight: 300;
+}
+
+.solutionsOne {
+	color: black;
+	padding-top: 2%;
+	padding-left: 4%;
+	margin: 0;
+	font-weight: bold;
+}
+
+.solutionsTwo {
+	color: black;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 0;
+    text-align: justify;
+	font-weight: 300;
+}
+
+.image-final{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+.image-final a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+
+
+.img-final {
+	width: 50% !important;
+	height: 50% !important;
+	cursor: auto !important;
+	position: relative !important;
+	top: auto !important;
+	right: auto !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2630,6 +2806,12 @@ input, select, textarea {
 
 /* Actions */
 
+ul.actions-rodape {
+	display: flex;
+    justify-content: center;
+	margin-top: 2%;
+}
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2848,6 +3030,7 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+
 		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
 		input[type="reset"]:active,
@@ -2924,6 +3107,121 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
+			background-color: rgba(255, 255, 255, 0.3) !important;
+			box-shadow: none !important;
+			color: #ffffff !important;
+			cursor: default;
+			opacity: 0.25;
+		}
+
+/* Button Intern */
+
+input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button-styled {
+		padding-top: 2%;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 4px;
+		border: 0;
+		box-shadow: inset 0 0 0 1px rgb(0 0 0 / 30%);
+		color: #7b7b7b !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 3em;
+		line-height: 3em;
+		padding: 0 2.25em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+
+
+		input[type="submit"]:hover, input[type="submit"]:active,
+		input[type="reset"]:hover,
+		input[type="reset"]:active,
+		input[type="button"]:hover,
+		input[type="button"]:active,
+		.button-styled:hover,
+		.button-styled:active {
+			box-shadow: inset 0 0 0 1px #e44c65;
+			color: #e44c65 !important;
+		}
+
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		input[type="button"]:active,
+		.button-styled:active {
+			background-color: rgba(228, 76, 101, 0.15);
+		}
+
+		input[type="submit"].icon:before,
+		input[type="reset"].icon:before,
+		input[type="button"].icon:before,
+		.button-styled.icon:before {
+			margin-right: 0.5em;
+		}
+
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		input[type="button"].fit,
+		.button-styled.fit {
+			width: 100%;
+		}
+
+		input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		.button-styled.small {
+			font-size: 0.8em;
+		}
+
+		input[type="submit"].large,
+		input[type="reset"].large,
+		input[type="button"].large,
+		.button-styled.large {
+			font-size: 1.35em;
+		}
+
+		input[type="submit"].primary,
+		input[type="reset"].primary,
+		input[type="button"].primary,
+		.button-styled.primary {
+			background-color: #e44c65;
+			box-shadow: none;
+			color: #ffffff !important;
+		}
+
+			input[type="submit"].primary:hover,
+			input[type="reset"].primary:hover,
+			input[type="button"].primary:hover,
+			.button-styled.primary:hover {
+				background-color: #e76278;
+			}
+
+			input[type="submit"].primary:active,
+			input[type="reset"].primary:active,
+			input[type="button"].primary:active,
+			.button-styled.primary:active {
+				background-color: #e13652;
+			}
+
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		.button-styled.disabled,
+		.button-styled:disabled {
 			background-color: rgba(255, 255, 255, 0.3) !important;
 			box-shadow: none !important;
 			color: #ffffff !important;
@@ -4112,3 +4410,6 @@ input, select, textarea {
 					}
 
 	}
+
+	
+	

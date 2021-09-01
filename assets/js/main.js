@@ -4,6 +4,39 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function openModal () {
+	$('.modal-info-out').addClass('fixed-class')
+}
+
+function openModalTwo () {
+	$('.modal-info-out-two').addClass('fixed-class')
+}
+
+function openModalThree () {
+	$('.modal-info-out-three').addClass('fixed-class')
+}
+
+function openModalFour () {
+	$('.modal-info-out-four').addClass('fixed-class')
+}
+
+function closeModal () {
+	$('.modal-info-out').removeClass('fixed-class')
+}
+
+function closeModalTwo () {
+	$('.modal-info-out-two').removeClass('fixed-class')
+}
+
+function closeModalThree () {
+	$('.modal-info-out-three').removeClass('fixed-class')
+}
+
+
+function closeModalFour () {
+	$('.modal-info-out-four').removeClass('fixed-class')
+}
+
 (function($) {
 
 	var	$window = $(window),
@@ -34,6 +67,10 @@
 			speed: 2000
 		});
 
+		// $('.scrollyx').scrolly({
+			
+		// });
+
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'right',
@@ -41,6 +78,8 @@
 		});
 
 	// Nav.
+
+		
 
 		// Title Bar.
 // 			$(
