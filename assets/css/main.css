@@ -16,6 +16,18 @@
 	text-align: center;
 }
 
+.modal-info-out-frenet-usabilidade{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
 .modal-info-out{
 	width: 100%;
 	height: 100%;
@@ -52,6 +64,30 @@
 	background-color: rgb(23 24 32 / 91%);
 }
 .modal-info-out-four{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
+.modal-info-out-dasa{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+	align-items: center;
+    justify-content: center;
+	background-color: rgb(23 24 32 / 91%);
+}
+
+.modal-info-out-frenet-netnografia{
 	width: 100%;
 	height: 100%;
 	z-index: 100;
@@ -2622,6 +2658,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands' !important;
 		}
+
 
 		.icon.alt {
 			text-decoration: none;

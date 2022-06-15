@@ -8,6 +8,19 @@ function openModal () {
 	$('.modal-info-out').addClass('fixed-class')
 }
 
+function openModalFrenetUsabilidade() {
+	$('.modal-info-out-frenet-usabilidade').addClass('fixed-class')
+}
+
+function openModalFrenetNetnografia() {
+	$('.modal-info-out-frenet-netnografia').addClass('fixed-class')
+}
+
+function openModalDasa() {
+	$('.modal-info-out-dasa').addClass('fixed-class')
+}
+
+
 function openModalTwo () {
 	$('.modal-info-out-two').addClass('fixed-class')
 }
@@ -22,6 +35,18 @@ function openModalFour () {
 
 function closeModal () {
 	$('.modal-info-out').removeClass('fixed-class')
+}
+
+function closeModalFrenetUsabilidade () {
+	$('.modal-info-out-frenet-usabilidade').removeClass('fixed-class')
+}
+
+function closeModalFrenetNetnografia () {
+	$('.modal-info-out-frenet-netnografia').removeClass('fixed-class')
+}
+
+function closeModalDasa () {
+	$('.modal-info-out-dasa').removeClass('fixed-class')
 }
 
 function closeModalTwo () {
