@@ -12,6 +12,14 @@ function openModalFrenetUsabilidade() {
 	$('.modal-info-out-frenet-usabilidade').addClass('fixed-class')
 }
 
+function openModalDasaHospitais() {
+	$('.modal-info-out-dasa-hospitais').addClass('fixed-class')
+}
+
+function openModalCVC() {
+	$('.modal-info-out-cvc').addClass('fixed-class')
+}
+
 function openModalFrenetNetnografia() {
 	$('.modal-info-out-frenet-netnografia').addClass('fixed-class')
 }
@@ -37,8 +45,16 @@ function closeModal () {
 	$('.modal-info-out').removeClass('fixed-class')
 }
 
+function closeModalDasaHospitais () {
+	$('.modal-info-out-dasa-hospitais').removeClass('fixed-class')
+}
+
 function closeModalFrenetUsabilidade () {
 	$('.modal-info-out-frenet-usabilidade').removeClass('fixed-class')
+}
+
+function closeModalCVC () {
+	$('.modal-info-out-cvc').removeClass('fixed-class')
 }
 
 function closeModalFrenetNetnografia () {
